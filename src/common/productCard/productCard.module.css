@@ -1,0 +1,23 @@
+
+
+.productWrapper{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 8px 4px;
+    text-align: center;
+    cursor: pointer;
+    width: 250px;
+    height: 320px;
+}
+.productWrapper:hover{
+   scale: 1.01;
+
+}
+.productImg{
+    height: 200px;
+    width: 100%;
+    transition: all 0.2s;
+}
+.productPrice{
+    
+}

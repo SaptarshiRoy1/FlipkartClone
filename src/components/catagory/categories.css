@@ -1,0 +1,45 @@
+.section{
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.category{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.category.section{
+    margin-top: 20px;
+    position: relative;
+}
+
+.category.category_img{
+    width: 70px;
+    height: 70px;
+}
+
+.categories_wrapper{
+    margin-top: 20px;
+    position: relative;
+}
+
+.category.category_label{
+    margin-top: 5px;
+        text-align: center;
+}
+
+.carousel_next{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: 999;
+}
+.carousel_back{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    z-index: 999;
+}

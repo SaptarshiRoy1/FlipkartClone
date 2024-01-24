@@ -1,0 +1,36 @@
+.carousel_item{
+height: 250px;
+width: 100%;
+}
+
+.carousel_Wrapper{
+margin-top: 10px;
+/* position: relative; */
+}
+ .carousel_next{
+    /* position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 999; */
+    border-radius: 4px 0px 0px 4px;
+}
+.carousel_back{
+    /* position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 999; */
+    border-radius: 0px 4px 4px 0px;
+}
+
+.carousel_back:hover,.carousel_next:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.carousel_btn{
+    height: 70px;
+    padding-top: 22px;
+    width:30px ;
+    background-color:rgba(250, 245, 236, 0.651);
+}
+
